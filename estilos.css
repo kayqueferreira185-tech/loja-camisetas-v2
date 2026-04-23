@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(211, 199, 199);
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+.dark-mode{
+    background-color: rgb(61, 60, 60);
+    color: rgb(211, 199, 199);
+}
+.dark-mode h1 {
+    background-color: rgb(47, 46, 46);
+    color: rgb(211, 199, 199);
+    border: 5px solid rgb(219, 213, 213);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+.dark-mode h2{
+    background-color: rgb(47, 46, 46);
+    color: rgb(211, 199, 199);
+    border: 2px solid rgb(219, 213, 213);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dark-mode article {
+    border: solid 5px rgb(200, 200, 200);
+}
+
+.dark-mode button{
+    border: solid 3px white;
+}
+.dark-mode a{
+    border: solid 4px white;
+    background-color: rgb(58, 57, 57);
+    color: aliceblue;
+}
+
+
+header{
+    display: flex;
+       
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.left {
+    flex-grow: 1;
+}
+.right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px
+}
+
+header h1{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    border: solid 5px rgb(62, 62, 62);
+    font-size: 50px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: white;
+    text-shadow: 3px 3px 16px rgb(109, 101, 101);
+    margin-bottom: 40px;
+}
+
+button{
+   background-color: rgb(213, 208, 208);
+    color: rgb(12, 12, 12);
+    border: solid 2px black;
+    padding: 10px; 
+    font-size: 15px;
+    border-radius: 12px;
+    transition: 0.15s ease;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+button:hover{
+    background-color:rgb(39, 37, 37);
+    color: white;
+    border: solid 2px white;   
+    transform: scale(1.05);
+}
+button:active{
+    transform:scale(0.95);
+    
+}
+
+main{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    border: solid 5px black;
+    max-width: 600px;
+    padding: 46px;
+    border-radius: 16px;
+}
+
+
+h2{
+  margin: 0 auto;
+  width: fit-content;
+  border-radius: 16px;
+  padding: 12px;
+  background-color: rgb(247, 239, 239);
+  text-shadow: 3px 3px 5px rgb(109, 101, 101);
+  
+}
+
+.camiseta{
+    display:flex ;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 40px;
+}
+
+.paragrafo_style{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 16px;
+    
+}
+
+.camiseta img{   
+    width: 100%;
+    max-width: 350px;
+    border:solid 5px white;
+    border-radius: 26px;
+    transition: 0.3s ease; 
+}
+
+.camiseta img:hover {
+    transform: scale(1.06);
+}
+
+
+.compra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    border: solid rgb(93, 92, 92);
+    padding: 12px 20px;
+    color: red;
+    background-color: white;
+    border-radius: 56px;
+    transition: 0.3s ease;
+}
+
+ a:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+    background-color: rgb(213, 63, 63);
+    color: white;
+  
+}
+
+footer{
+ font-size: 16px;
+ padding: 12px 12px 9px 12px;
+}
